@@ -1,0 +1,17 @@
+Coupling Task:
+
+1. Given to classes: Car end Engine.
+   Class Engine has constructor with two
+   parameters - serial number (long) and
+   capacity (float).
+   Class Car interact with class Engine
+   though constructor.
+
+2.Refactor code:
+   - change class Engine constructor:
+     add new parameter to it - number
+     of cylinders;
+
+   - change class Car in way, that prevent
+     it from feature refactoring, if class
+     Engine will be changed again.

@@ -1,0 +1,8 @@
+Cohesion:
+
+1. Given interface Manager with method countSalary.
+2. Refactor code to allow some kind of manager
+   encrypt company documents with separate class method
+   - encryptDocs().
+
+   MAIN condition: do NOT change class Manager.
